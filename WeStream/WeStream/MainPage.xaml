@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="WeStream.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeStream"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        
+        <Button x:Name="streamButton" 
+                Content="Stream" 
+                HorizontalAlignment="Left" 
+                Margin="25,0,0,25" 
+                VerticalAlignment="Bottom"
+                Click="streamButton_Click"/>
+
+        <Button x:Name="emgButton" 
+                Content="Emergency" 
+                HorizontalAlignment="Right" 
+                Margin="0,0,25,25" 
+                VerticalAlignment="Bottom"
+                Click="emgButton_Click"/>
+        
+    </Grid>
+</Page>
